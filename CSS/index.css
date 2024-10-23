@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body{
+    background-color:rgb(228, 228, 228);
+    font-family: "poetsen one";
+    font-weight: 100;
+}
+ul{
+    background-color: cornflowerblue;
+    width: 93%;
+    height: 25px;
+    border-radius: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    opacity: 0.97;
+    text-shadow: 0.2em 0.2em 0.3em white;
+    box-shadow: 0.2em 0.2em 0.5em black;
+    z-index: 1;
+}
+main{
+    margin-top: 100px;
+}
+h1{
+    text-shadow: 0.2em 0.2em 0.3em white;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#logo{
+    position: relative;
+    top: 50px;
+    background-color: rgb(203, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo img{
+    scale: 0.6;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+    font-size: 150%;
+}
+nav{
+    background-color: rgb(91, 91, 91);
+    width: 100%;
+    height: 25px;   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: 1;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 190%;
+    text-shadow: 0.3em 0.3em 0.4em white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    z-index: 0;
+}
+.box:hover{
+    height: 350px;
+}
+.box .img-box{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+.box:hover .img-box{
+    top: -100px;
+    scale: 0.85;
+}
+.box .img-box img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box .content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 55px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.box:hover .content{
+    top: 130px;
+    height: 250px;
+}
+.box .link{
+    background: linear-gradient(135deg, rgb(228, 228, 228), #FFD700,rgb(228, 228, 228) );
+    padding: 14px 14px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 130%;
+    transition: 0.5s;
+}
+.box .link:hover{
+    background: linear-gradient(135deg, rgb(228, 228, 228), #FFD700,rgb(228, 228, 228) );
+    padding: 17px 22px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 150%;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centro h1{
+    font-size: 300%;
+}
+.box2{
+    background-image: url(../IMAGENS/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-shadow: 0.2em 0.2em 0.3em darkgray;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    position: relative;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    z-index: 0;
+}
+.box2:hover{
+    height: 400px;
+    text-shadow: 0.0em 0.0em 0.0em darkgray;
+}
+.box2 .img-box2{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+.box2:hover .img-box2{
+    top: -100px;
+    scale: 0.85;
+}
+.box2 .img-box2 img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box2 .content2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 55px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.box2:hover .content2{
+    top: 130px;
+    height: 250px;
+}
+.box2 .link2{
+    background: linear-gradient(135deg, rgb(228, 228, 228), #FFD700,rgb(228, 228, 228) );
+    padding: 14px 14px;
+    color:black ;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 130%;
+    transition: 0.5s;
+}
+.box2 .link2:hover{
+    padding: 17px 22px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 150%;
+}

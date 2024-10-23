@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+    background-image: url(../IMAGENS/fundo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 50%;
+    font-family: 'poppins',sans-serif;
+    font-size: 110%;
+    margin: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 365px;
+}
+hr{
+    width: 0;
+    height: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+#musica{
+    font-family: "poetsen one";
+    border-radius: 10px;
+    width: 170px;
+    height: 65px;
+    font-size: 150%;
+    background-color: white;
+    transition: 0.5s;
+}
+#artista{
+
+    border-radius: 5px;
+}
+#musica a{
+    text-decoration: none;
+    color: black;
+}
+#musica:hover{
+    font-size: 175%;
+}
+.descrição{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 115%;
+    height:80px ;
+    overflow: hidden;
+    transition: 1s;
+    box-shadow: 0.1em 0.1em 0.1em black;
+}
+.autor{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 115%;
+    height:80px ;
+    overflow: hidden;
+    transition: 1s;
+    box-shadow: 0.1em 0.1em 0.1em black;
+}
+.descrição:hover{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 115%;
+    height: 335px ;
+    overflow: hidden;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+.autor:hover{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 115%;
+    height: 365px ;
+    overflow: hidden;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+.video{
+    background-color: azure;
+    border-radius: 20px;
+    font-family: "poetsen one";
+    text-align: center;
+    padding: 0px;
+    width: 850px;
+    height: 510px;
+}
+.video video{
+    height: 400px;
+}
+.letra{
+    background-color: azure;
+    border-radius: 20px;
+    font-family: "poetsen one";
+    text-align: start;
+    padding: 30px;
+    overflow-y: scroll;
+    height: 400px;
+}
